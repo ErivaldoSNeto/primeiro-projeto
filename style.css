@@ -1,0 +1,109 @@
+/* Estilizando o elemento 'body' (corpo da página) */
+body {
+    /* Definindo um fundo gradiente que vai da esquerda (cor mais clara) para a direita (cor mais escura) */
+    background: linear-gradient(to right, rgb(51, 49, 49), rgb(0,0,0));
+    /* Cor padrão do texto */
+   color: white;
+   /* Fonte padrão utilizada para o texto */
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilizando as listas não ordenadas */
+ul {
+    /* Display flex permite trabalhar com o modelo flexível e alinhar os itens dentro do container */
+    display: flex;
+    /* Espaçamento igual entre os itens da lista */
+    justify-content: space-around;
+    /* Removendo o estilo padrão de lista (bolinhas ao lado dos itens) */
+    list-style-type: none;
+    /* Centralizando os itens verticalmente */
+    align-items: center;
+    /* Espaçamento interno ao redor da lista */
+    padding: 16px;
+}
+
+/* Estilizando todos os links */
+a {
+    /* Cor do texto do link */
+    color: white;
+    /* Removendo o sublinhado padrão dos links */
+    text-decoration: none;
+    /* Estilo do cursor ao passar sobre o link */
+    cursor: pointer;
+}
+
+/* Estilizando imagens dentro do elemento 'header' */
+header img {
+    /* Definindo largura da imagem */
+    width: 130px;
+    /* Definindo altura da imagem */
+    height: 130px;
+    /* Tornando a imagem redonda */
+    border-radius: 50%;
+    /* Adicionando uma borda azul à imagem */
+    border: 5px solid rgb(2, 17, 179);
+}
+
+/* Classe utilizada para centralizar texto */
+.center {
+    /* Alinhando texto ao centro */
+    text-align: center;
+}
+
+/* Estilizando o elemento de título h1 */
+h1 {
+    /* Adicionando uma transição para a propriedade 'transform' */
+    transition: transform 0.3s;
+    /* Cor do texto h1 */
+    color: rgb(2, 17, 179); 
+}
+  
+/* Efeito hover (ao passar o mouse) para o elemento h1 */
+h1:hover {
+    /* Movendo o título 10 pixels para cima ao passar o mouse */
+    transform: translateY(-10px);
+    /* Mantendo a cor azul no hover */
+    color: rgb(2, 17, 179);
+}
+
+/* Estilizando imagens dentro do elemento 'footer' */
+footer img {
+    width: 50px;
+    height: 50px;
+    /* Display block faz a imagem ser tratada como um bloco, não inline */
+    display: block;
+    /* Centralizando a imagem horizontalmente */
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+/* Estilizando parágrafos dentro do elemento 'footer' */
+footer p {
+    text-align: center;
+}
+
+/* Efeito hover (ao passar o mouse) para links dentro do elemento 'nav' */
+nav a:hover{
+    /* Alterando a cor do texto ao passar o mouse */
+    color: rgb(2, 17, 179)
+}
+
+/* Estilizando o elemento de título h2 */
+h2 {
+    transition: transform 0.3s; 
+}
+  
+/* Efeito hover (ao passar o mouse) para o elemento h2 */
+h2:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilizando o elemento de título h3 */
+h3 {
+    transition: transform 0.3s; 
+}
+  
+/* Efeito hover (ao passar o mouse) para o elemento h3 */
+h3:hover {
+    transform: translateY(-10px);
+}
